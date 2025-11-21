@@ -1,0 +1,29 @@
+# Core Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+streamlit==1.28.0
+python-multipart==0.0.6
+
+# Computer Vision
+opencv-python==4.8.1.78
+ultralytics==8.0.200
+
+# Data Processing
+numpy==1.24.3
+pandas==2.0.3
+
+# Visualization
+plotly==5.17.0
+
+# HTTP Requests
+requests==2.31.0
+
+# YOLO Dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+Pillow>=9.3.0
+
+# Optional: GPU Support (uncomment if using CUDA)
+# torch==2.0.0+cu118
+# torchvision==0.15.0+cu118
+# torchaudio==2.0.0+cu118
